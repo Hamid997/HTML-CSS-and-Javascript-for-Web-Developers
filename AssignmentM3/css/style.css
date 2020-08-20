@@ -1,1 +1,73 @@
+/** Navbar, overriding bootstraps default colors for background, borders, some elements position etc. **/
+#header-nav {
+	background-color: #e0e0e0;
+	border-color: #d4d4d4;
+	border-radius: 0;
+	border: 0;
+}
 
+.navbar-default .navbar-toggle {
+	border-color: #d4d4d4;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: #d4d4d4;
+}
+
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+	border-color: #c4c4c4;
+}
+
+.navbar-nav {
+    margin: 0px -15px;
+}
+
+.navbar-brand {
+	color: #fff;
+}
+
+li {
+	border-bottom: 1px solid #c4c4c4;
+}
+
+li:last-child {
+	border-bottom: none;
+}
+
+li:hover {
+	background-color: #c4c4c4;
+}
+
+.navbar-nav > li > a {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+/** End navbar**/
+
+/** Main content **/
+h1 {
+	margin-bottom: 20px;
+}
+
+article {
+	padding: 5px 15px 10px 15px;
+	margin-bottom: 20px;
+}
+
+h3 {
+	margin-top: 10px;
+}
+
+#chicken {
+	background-color: #abe0ab;
+}
+
+#beef {
+	background-color: #b7e1ed;
+}
+
+#sushi {
+	background-color: #FFF689;
+}
+/** End main content **/
